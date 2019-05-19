@@ -14,6 +14,9 @@
 		64BD17AA22169D5600128E3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64BD17A822169D5600128E3A /* LaunchScreen.storyboard */; };
 		64BD17B522169D5600128E3A /* ATown_ConnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BD17B422169D5600128E3A /* ATown_ConnectTests.swift */; };
 		64BD17C022169D5600128E3A /* ATown_ConnectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BD17BF22169D5600128E3A /* ATown_ConnectUITests.swift */; };
+		64BD17CF2217958400128E3A /* tictactoeboard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 64BD17CE2217958400128E3A /* tictactoeboard.jpg */; };
+		64BD17D32219253400128E3A /* LevelSelectorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BD17D22219253400128E3A /* LevelSelectorController.swift */; };
+		64BD17D72219308800128E3A /* ModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BD17D62219308800128E3A /* ModeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		64BD17BB22169D5600128E3A /* ATown ConnectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ATown ConnectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64BD17BF22169D5600128E3A /* ATown_ConnectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATown_ConnectUITests.swift; sourceTree = "<group>"; };
 		64BD17C122169D5600128E3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64BD17CE2217958400128E3A /* tictactoeboard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tictactoeboard.jpg; path = ../../../../../Downloads/tictactoeboard.jpg; sourceTree = "<group>"; };
+		64BD17D22219253400128E3A /* LevelSelectorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelSelectorController.swift; sourceTree = "<group>"; };
+		64BD17D62219308800128E3A /* ModeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +103,10 @@
 		64BD179E22169D5300128E3A /* ATown Connect */ = {
 			isa = PBXGroup;
 			children = (
+				64BD17CD2217954C00128E3A /* Images */,
 				64BD179F22169D5300128E3A /* AppDelegate.swift */,
+				64BD17D62219308800128E3A /* ModeViewController.swift */,
+				64BD17D22219253400128E3A /* LevelSelectorController.swift */,
 				64BD17A122169D5300128E3A /* ViewController.swift */,
 				64BD17A322169D5300128E3A /* Main.storyboard */,
 				64BD17A622169D5600128E3A /* Assets.xcassets */,
@@ -123,6 +132,14 @@
 				64BD17C122169D5600128E3A /* Info.plist */,
 			);
 			path = "ATown ConnectUITests";
+			sourceTree = "<group>";
+		};
+		64BD17CD2217954C00128E3A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				64BD17CE2217958400128E3A /* tictactoeboard.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				64BD17AA22169D5600128E3A /* LaunchScreen.storyboard in Resources */,
+				64BD17CF2217958400128E3A /* tictactoeboard.jpg in Resources */,
 				64BD17A722169D5600128E3A /* Assets.xcassets in Resources */,
 				64BD17A522169D5300128E3A /* Main.storyboard in Resources */,
 			);
@@ -256,8 +274,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64BD17D32219253400128E3A /* LevelSelectorController.swift in Sources */,
 				64BD17A222169D5300128E3A /* ViewController.swift in Sources */,
 				64BD17A022169D5300128E3A /* AppDelegate.swift in Sources */,
+				64BD17D72219308800128E3A /* ModeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,7 +459,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Aragon.ATown-Connect";
+				PRODUCT_BUNDLE_IDENTIFIER = Code.TicTacToe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -457,7 +477,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Aragon.ATown-Connect";
+				PRODUCT_BUNDLE_IDENTIFIER = Code.TicTacToe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
