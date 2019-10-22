@@ -9,6 +9,29 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>Tic Tac Toe.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>64BD179B22169D5300128E3A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>64BD17AF22169D5600128E3A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>64BD17BA22169D5600128E3A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 	</dict>
 </dict>
 </plist>

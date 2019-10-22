@@ -272,12 +272,12 @@ class ViewController: UIViewController {
         
         print("l", level);
         switch level {
-        case "Easy":
+        case "EASY":
             if possibleMoves.count > 0 {
                 move = selectRandom(arr: possibleMoves);
             }
             break;
-        case "Medium":
+        case "MEDIUM":
             //checking if either letter can win
             for letter in ["O", "X"] {
                 for i in possibleMoves {
@@ -294,7 +294,7 @@ class ViewController: UIViewController {
                 move = selectRandom(arr: possibleMoves);
             }
             break;
-        case "Difficult":
+        case "DIFFICULT":
             //checking if either letter can win
             for letter in ["O", "X"] {
                 for i in possibleMoves {

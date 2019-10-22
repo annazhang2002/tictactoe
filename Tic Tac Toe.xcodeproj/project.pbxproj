@@ -14,9 +14,9 @@
 		64BD17AA22169D5600128E3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64BD17A822169D5600128E3A /* LaunchScreen.storyboard */; };
 		64BD17B522169D5600128E3A /* ATown_ConnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BD17B422169D5600128E3A /* ATown_ConnectTests.swift */; };
 		64BD17C022169D5600128E3A /* ATown_ConnectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BD17BF22169D5600128E3A /* ATown_ConnectUITests.swift */; };
-		64BD17CF2217958400128E3A /* tictactoeboard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 64BD17CE2217958400128E3A /* tictactoeboard.jpg */; };
 		64BD17D32219253400128E3A /* LevelSelectorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BD17D22219253400128E3A /* LevelSelectorController.swift */; };
 		64BD17D72219308800128E3A /* ModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BD17D62219308800128E3A /* ModeViewController.swift */; };
+		64F69607235FC93C00B53706 /* tictactoeboard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 64F69606235FC93C00B53706 /* tictactoeboard.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,22 +37,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		64BD179C22169D5300128E3A /* ATown Connect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ATown Connect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64BD179C22169D5300128E3A /* Tic Tac Toe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tic Tac Toe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64BD179F22169D5300128E3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64BD17A122169D5300128E3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		64BD17A422169D5300128E3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		64BD17A622169D5600128E3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64BD17A922169D5600128E3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64BD17AB22169D5600128E3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		64BD17B022169D5600128E3A /* ATown ConnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ATown ConnectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64BD17B022169D5600128E3A /* Tic Tac ToeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tic Tac ToeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64BD17B422169D5600128E3A /* ATown_ConnectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATown_ConnectTests.swift; sourceTree = "<group>"; };
 		64BD17B622169D5600128E3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		64BD17BB22169D5600128E3A /* ATown ConnectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ATown ConnectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64BD17BB22169D5600128E3A /* Tic Tac ToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tic Tac ToeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64BD17BF22169D5600128E3A /* ATown_ConnectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATown_ConnectUITests.swift; sourceTree = "<group>"; };
 		64BD17C122169D5600128E3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		64BD17CE2217958400128E3A /* tictactoeboard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tictactoeboard.jpg; path = ../../../../../Downloads/tictactoeboard.jpg; sourceTree = "<group>"; };
 		64BD17D22219253400128E3A /* LevelSelectorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelSelectorController.swift; sourceTree = "<group>"; };
 		64BD17D62219308800128E3A /* ModeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeViewController.swift; sourceTree = "<group>"; };
+		64F69606235FC93C00B53706 /* tictactoeboard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tictactoeboard.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +83,7 @@
 		64BD179322169D5300128E3A = {
 			isa = PBXGroup;
 			children = (
-				64BD179E22169D5300128E3A /* ATown Connect */,
+				64BD179E22169D5300128E3A /* Tic Tac Toe */,
 				64BD17B322169D5600128E3A /* ATown ConnectTests */,
 				64BD17BE22169D5600128E3A /* ATown ConnectUITests */,
 				64BD179D22169D5300128E3A /* Products */,
@@ -93,14 +93,14 @@
 		64BD179D22169D5300128E3A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				64BD179C22169D5300128E3A /* ATown Connect.app */,
-				64BD17B022169D5600128E3A /* ATown ConnectTests.xctest */,
-				64BD17BB22169D5600128E3A /* ATown ConnectUITests.xctest */,
+				64BD179C22169D5300128E3A /* Tic Tac Toe.app */,
+				64BD17B022169D5600128E3A /* Tic Tac ToeTests.xctest */,
+				64BD17BB22169D5600128E3A /* Tic Tac ToeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		64BD179E22169D5300128E3A /* ATown Connect */ = {
+		64BD179E22169D5300128E3A /* Tic Tac Toe */ = {
 			isa = PBXGroup;
 			children = (
 				64BD17CD2217954C00128E3A /* Images */,
@@ -113,7 +113,7 @@
 				64BD17A822169D5600128E3A /* LaunchScreen.storyboard */,
 				64BD17AB22169D5600128E3A /* Info.plist */,
 			);
-			path = "ATown Connect";
+			path = "Tic Tac Toe";
 			sourceTree = "<group>";
 		};
 		64BD17B322169D5600128E3A /* ATown ConnectTests */ = {
@@ -137,7 +137,7 @@
 		64BD17CD2217954C00128E3A /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				64BD17CE2217958400128E3A /* tictactoeboard.jpg */,
+				64F69606235FC93C00B53706 /* tictactoeboard.jpg */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -145,9 +145,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		64BD179B22169D5300128E3A /* ATown Connect */ = {
+		64BD179B22169D5300128E3A /* Tic Tac Toe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 64BD17C422169D5600128E3A /* Build configuration list for PBXNativeTarget "ATown Connect" */;
+			buildConfigurationList = 64BD17C422169D5600128E3A /* Build configuration list for PBXNativeTarget "Tic Tac Toe" */;
 			buildPhases = (
 				64BD179822169D5300128E3A /* Sources */,
 				64BD179922169D5300128E3A /* Frameworks */,
@@ -157,14 +157,14 @@
 			);
 			dependencies = (
 			);
-			name = "ATown Connect";
+			name = "Tic Tac Toe";
 			productName = "ATown Connect";
-			productReference = 64BD179C22169D5300128E3A /* ATown Connect.app */;
+			productReference = 64BD179C22169D5300128E3A /* Tic Tac Toe.app */;
 			productType = "com.apple.product-type.application";
 		};
-		64BD17AF22169D5600128E3A /* ATown ConnectTests */ = {
+		64BD17AF22169D5600128E3A /* Tic Tac ToeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 64BD17C722169D5600128E3A /* Build configuration list for PBXNativeTarget "ATown ConnectTests" */;
+			buildConfigurationList = 64BD17C722169D5600128E3A /* Build configuration list for PBXNativeTarget "Tic Tac ToeTests" */;
 			buildPhases = (
 				64BD17AC22169D5600128E3A /* Sources */,
 				64BD17AD22169D5600128E3A /* Frameworks */,
@@ -175,14 +175,14 @@
 			dependencies = (
 				64BD17B222169D5600128E3A /* PBXTargetDependency */,
 			);
-			name = "ATown ConnectTests";
+			name = "Tic Tac ToeTests";
 			productName = "ATown ConnectTests";
-			productReference = 64BD17B022169D5600128E3A /* ATown ConnectTests.xctest */;
+			productReference = 64BD17B022169D5600128E3A /* Tic Tac ToeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		64BD17BA22169D5600128E3A /* ATown ConnectUITests */ = {
+		64BD17BA22169D5600128E3A /* Tic Tac ToeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 64BD17CA22169D5600128E3A /* Build configuration list for PBXNativeTarget "ATown ConnectUITests" */;
+			buildConfigurationList = 64BD17CA22169D5600128E3A /* Build configuration list for PBXNativeTarget "Tic Tac ToeUITests" */;
 			buildPhases = (
 				64BD17B722169D5600128E3A /* Sources */,
 				64BD17B822169D5600128E3A /* Frameworks */,
@@ -193,9 +193,9 @@
 			dependencies = (
 				64BD17BD22169D5600128E3A /* PBXTargetDependency */,
 			);
-			name = "ATown ConnectUITests";
+			name = "Tic Tac ToeUITests";
 			productName = "ATown ConnectUITests";
-			productReference = 64BD17BB22169D5600128E3A /* ATown ConnectUITests.xctest */;
+			productReference = 64BD17BB22169D5600128E3A /* Tic Tac ToeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -221,7 +221,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 64BD179722169D5300128E3A /* Build configuration list for PBXProject "ATown Connect" */;
+			buildConfigurationList = 64BD179722169D5300128E3A /* Build configuration list for PBXProject "Tic Tac Toe" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -234,9 +234,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				64BD179B22169D5300128E3A /* ATown Connect */,
-				64BD17AF22169D5600128E3A /* ATown ConnectTests */,
-				64BD17BA22169D5600128E3A /* ATown ConnectUITests */,
+				64BD179B22169D5300128E3A /* Tic Tac Toe */,
+				64BD17AF22169D5600128E3A /* Tic Tac ToeTests */,
+				64BD17BA22169D5600128E3A /* Tic Tac ToeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -247,7 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				64BD17AA22169D5600128E3A /* LaunchScreen.storyboard in Resources */,
-				64BD17CF2217958400128E3A /* tictactoeboard.jpg in Resources */,
+				64F69607235FC93C00B53706 /* tictactoeboard.jpg in Resources */,
 				64BD17A722169D5600128E3A /* Assets.xcassets in Resources */,
 				64BD17A522169D5300128E3A /* Main.storyboard in Resources */,
 			);
@@ -302,12 +302,12 @@
 /* Begin PBXTargetDependency section */
 		64BD17B222169D5600128E3A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 64BD179B22169D5300128E3A /* ATown Connect */;
+			target = 64BD179B22169D5300128E3A /* Tic Tac Toe */;
 			targetProxy = 64BD17B122169D5600128E3A /* PBXContainerItemProxy */;
 		};
 		64BD17BD22169D5600128E3A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 64BD179B22169D5300128E3A /* ATown Connect */;
+			target = 64BD179B22169D5300128E3A /* Tic Tac Toe */;
 			targetProxy = 64BD17BC22169D5600128E3A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -454,7 +454,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MML8TFWF8P;
-				INFOPLIST_FILE = "ATown Connect/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Tic Tac Toe/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -472,7 +472,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MML8TFWF8P;
-				INFOPLIST_FILE = "ATown Connect/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Tic Tac Toe/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -501,7 +501,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ATown Connect.app/ATown Connect";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tic Tac Toe.app/Tic Tac Toe";
 			};
 			name = Debug;
 		};
@@ -522,7 +522,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ATown Connect.app/ATown Connect";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tic Tac Toe.app/Tic Tac Toe";
 			};
 			name = Release;
 		};
@@ -569,7 +569,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		64BD179722169D5300128E3A /* Build configuration list for PBXProject "ATown Connect" */ = {
+		64BD179722169D5300128E3A /* Build configuration list for PBXProject "Tic Tac Toe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				64BD17C222169D5600128E3A /* Debug */,
@@ -578,7 +578,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		64BD17C422169D5600128E3A /* Build configuration list for PBXNativeTarget "ATown Connect" */ = {
+		64BD17C422169D5600128E3A /* Build configuration list for PBXNativeTarget "Tic Tac Toe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				64BD17C522169D5600128E3A /* Debug */,
@@ -587,7 +587,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		64BD17C722169D5600128E3A /* Build configuration list for PBXNativeTarget "ATown ConnectTests" */ = {
+		64BD17C722169D5600128E3A /* Build configuration list for PBXNativeTarget "Tic Tac ToeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				64BD17C822169D5600128E3A /* Debug */,
@@ -596,7 +596,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		64BD17CA22169D5600128E3A /* Build configuration list for PBXNativeTarget "ATown ConnectUITests" */ = {
+		64BD17CA22169D5600128E3A /* Build configuration list for PBXNativeTarget "Tic Tac ToeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				64BD17CB22169D5600128E3A /* Debug */,
